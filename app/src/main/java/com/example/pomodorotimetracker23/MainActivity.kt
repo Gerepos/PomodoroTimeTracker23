@@ -21,7 +21,7 @@ class MainActivity : ComponentActivity() {
             PomodoroTimeTracker23Theme {
                 Scaffold(modifier = Modifier.fillMaxSize()) { innerPadding ->
                     Greeting(
-                        name = "Android2",
+                        name = "Android",
                         modifier = Modifier.padding(innerPadding)
                     )
                 }
